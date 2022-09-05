@@ -1,25 +1,23 @@
-let first = prompt("Введите первое число");
-let second = prompt("Введите вторе число");
-alert();
-
-function sum(num1,num2){
-    return  Number("num1") + Number("num2");
+function sum(){
+    a = prompt('a')
+    b = prompt('b')
+    alert(Number(a) + Number(b))
 }
-alert(sum)
 
 function min(num1,num2){
-    return  num1 - num2;
+    a = prompt('a')
+    b = prompt('b')
+    alert(Number(a) - Number(b))
 }
-alert(min)
 
-function multiply(num1,num2){
-    return  num1 * num2;
+function multiply(){
+    a = prompt('a')
+    b = prompt('b')
+    alert(a * b)
 }
-alert(multiply)
 
-function divide(num1,num2){
-    return  num1 / num2;
+function divide(){
+    a = prompt('a')
+    b = prompt('b')
+    alert(a / b)
 }
-alert(divide)
-
-
